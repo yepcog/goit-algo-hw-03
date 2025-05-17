@@ -1,7 +1,6 @@
 import re
 
 def normalize_phone(phone_number):
-    phone_number.strip()
     clean_number = re.sub("[^0-9]", "", phone_number)
     try:
         clean_number.index("38") == 0

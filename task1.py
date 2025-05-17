@@ -12,4 +12,4 @@ def get_days_from_today(date):
         diff = (given_date - today_date).days
         return diff
 
-print(get_days_from_today("2025-09-13"))
+print(get_days_from_today("2025-09-17"))
